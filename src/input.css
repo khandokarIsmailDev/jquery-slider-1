@@ -24,6 +24,10 @@ body {
     color: var(--primary-color);
 }
 
+.search input{
+    padding-left: 3rem !important;
+}
+
 .banner::before {
     content: '';
     position: absolute;
@@ -54,3 +58,17 @@ body {
     background: rgba(0,0,0,0.5);
     border: 1px solid rgba(255,255,255,1);
 } */
+
+.carousel .carousel-item{
+    width: 250px;
+    cursor: pointer;
+}
+
+.carousel .carousel-item img{
+    max-width: 235px;
+    border-radius: 10px;
+    transform: translateX(8px) translateY(-30px);
+    object-fit: cover;
+    object-position: center;
+}
+
