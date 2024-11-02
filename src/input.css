@@ -40,3 +40,13 @@ body {
     visibility: visible;
     transition: all 0.5s ease;
 }
+
+.banner .content h4 span {
+ padding: 0 10px;
+ border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+.banner .content h4 span:last-child{
+    border-right:none;
+}
+

@@ -13,7 +13,7 @@
   <body>
     <div class="body-container bg-black">
       <header
-        class="absolute top-0 left-0 w-full z-10 flex justify-between items-center px-7 py-5"
+        class="absolute top-0 left-0 w-full z-10 flex justify-between items-center px-20 py-5"
       >
         <a href="#" class="logo text-3xl font-bold text-white">iMovies</a>
         <ul class="nav flex gap-10">
@@ -38,22 +38,35 @@
         </div>
       </header>
 
-      <div class="banner relative w-full h-screen  py-24 flex justify-between items-center bg-[url('./assets/avatar.jpg')] bg-cover bg-center overflow-hidden transition-all duration-500">
-        <div class="content active relative z-10 w-[550px] hidden scale-0 transition-all duration-500">
-          <img src="./assets/the-little.png" alt="" />
-          <h4>
-            <span>2025</span><span><i>12+</i></span> <span>2h 14min</span
-            ><span>Romance</span>
+      <div
+        class="banner relative w-full h-screen py-24 px-20 flex justify-between items-center bg-[url('./assets/avatar.jpg')] bg-cover bg-center overflow-hidden transition-all duration-500"
+      >
+        <div
+          class="content active relative z-10 w-[550px] hidden scale-0 transition-all duration-500"
+        >
+          <img
+            class="movie-title max-w-[250px]"
+            src="./assets/the-little.png"
+            alt=""
+          />
+          <h4 class="text-[rgba(255,255,255,0.5)] font-normal text-3xl">
+            <span>2025</span
+            ><span
+              ><i class="text-white bg-[#ff3700] py-2 inline-block rounded-sm"
+                >12+</i
+              ></span
+            >
+            <span>2h 14min</span><span>Romance</span>
           </h4>
-          <p>
+          <p class="text-md font-light leading-5 text-white m-5 ml-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Quisquam, quos.
           </p>
-          <div class="buttons">
-            <a href="#"><i class="fa fa-play"></i>Watch</a>
-            <a href="#"><i class="fa fa-plus"></i>My List</a>
+          <div class="buttons ">
+            <a class="relative inline-block rounded-sm mr-2 bg-[#ff3700] text-white py-2 px-5" href="#"><i class="fa fa-play mx-2"></i>Watch</a>
+            <a class="relative inline-block rounded-sm mr-2 bg-[#ff3700] text-white py-2 px-5" href="#"><i class="fa fa-plus mx-2"></i>My List</a>
           </div>
         </div>
 
@@ -75,7 +88,6 @@
         </ul>
       </div>
     </div>
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></script>
