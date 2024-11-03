@@ -28,8 +28,24 @@ body {
     padding-left: 3rem !important;
 }
 
-.carousel{
-    perspective: 1500px !important;
+/* .carousel{
+    perspective: 300px !important;
+} */
+
+.carousel {
+    perspective: 800px !important; /* Default perspective for small screens */
+}
+
+@media (min-width: 481px) { /* For medium screens */
+    .carousel {
+        perspective: 1200px !important; /* Adjusted perspective */
+    }
+}
+
+@media (min-width: 769px) { /* For large screens */
+    .carousel {
+        perspective: 1500px !important; /* Further adjusted perspective */
+    }
 }
 
 .banner::before {
