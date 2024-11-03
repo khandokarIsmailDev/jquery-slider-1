@@ -568,12 +568,12 @@ video {
   position: relative;
 }
 
-.bottom-12{
-  bottom: 3rem;
+.bottom-0{
+  bottom: 0px;
 }
 
-.bottom-\[50px\]{
-  bottom: 50px;
+.bottom-12{
+  bottom: 3rem;
 }
 
 .left-0{
@@ -631,6 +631,14 @@ video {
 
 .mr-2{
   margin-right: 0.5rem;
+}
+
+.mt-56{
+  margin-top: 14rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
 }
 
 .inline-block{
@@ -936,6 +944,10 @@ body {
     perspective: 1200px !important;
     /* Adjusted perspective */
   }
+
+  .carousel .carousel-item img{
+    transform: translateX(8px) translateY(-40px);
+  }
 }
 
 @media (min-width: 769px) {
@@ -986,7 +998,7 @@ body {
 .carousel .carousel-item img{
   max-width: 235px;
   border-radius: 10px;
-  transform: translateX(8px) translateY(-40px);
+  transform: translateX(8px) translateY(-60px);
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -1023,6 +1035,18 @@ body {
 }
 
 @media (min-width: 640px){
+  .sm\:mt-0{
+    margin-top: 0px;
+  }
+
+  .sm\:block{
+    display: block;
+  }
+
+  .sm\:inline-flex{
+    display: inline-flex;
+  }
+
   .sm\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -1030,8 +1054,20 @@ body {
 }
 
 @media (min-width: 768px){
+  .md\:bottom-\[50px\]{
+    bottom: 50px;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:block{
     display: block;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
   }
 
   .md\:min-w-\[500px\]{
@@ -1053,6 +1089,10 @@ body {
 }
 
 @media (min-width: 1024px){
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
   .lg\:block{
     display: block;
   }
