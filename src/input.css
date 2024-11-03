@@ -28,6 +28,10 @@ body {
     padding-left: 3rem !important;
 }
 
+.carousel{
+    perspective: 1500px !important;
+}
+
 .banner::before {
     content: '';
     position: absolute;
@@ -72,3 +76,18 @@ body {
     object-position: center;
 }
 
+
+
+.sci a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+    transition:.3s;
+    cursor: pointer;
+}
+
+.sci a:hover{
+    color: var(--primary-color)
+}
