@@ -87,7 +87,7 @@ body {
 .carousel .carousel-item img{
     max-width: 235px;
     border-radius: 10px;
-    transform: translateX(8px) translateY(-30px);
+    transform: translateX(8px) translateY(-40px);
     object-fit: cover;
     object-position: center;
 }
