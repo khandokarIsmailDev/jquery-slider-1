@@ -41,7 +41,7 @@ body {
         perspective: 1200px !important; /* Adjusted perspective */
     }
     .carousel .carousel-item img{
-        transform: translateX(8px) translateY(-40px);
+        transform: translateX(8px) translateY(-30px);
     }
 }
 
@@ -90,7 +90,7 @@ body {
 .carousel .carousel-item img{
     max-width: 235px;
     border-radius: 10px;
-    transform: translateX(8px) translateY(-60px);
+    transform: translateX(8px) translateY(-50px);
     object-fit: cover;
     object-position: center;
 }
